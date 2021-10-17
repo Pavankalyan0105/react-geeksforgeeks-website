@@ -59,11 +59,11 @@
 @media (max-width: 430px){
     .main{
         margin-top: 150%;
-        margin-left: 4%;
+        margin-left: 0;
     }
     .main h1{
         font-size: 30px;
-        margin-left: -4%;
+        margin-left: 0;
     }
 }
 
