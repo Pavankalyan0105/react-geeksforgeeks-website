@@ -13,7 +13,7 @@ class GfgForm extends React.Component {
     }
 
     fetchsome() {
-      const url = `https://geeks-for-geeks-api.vercel.app/${this.state.value}`;
+      const url = `https://cors-anywhere.herokuapp.com/https://geeks-for-geeks-api.vercel.app/${this.state.value}`;
       axios.get(url).then((res) => {
         let data = res.data;
         if(data.error)
